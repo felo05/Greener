@@ -1,0 +1,15 @@
+# flutter pub run flutter_launcher_icons
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_channel_ios: true
+  image_path_android: "assets/images/Green logo android.png"
+  image_path_ios: "assets/images/Green logo ios.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  android: true
+  ios: true
+  image: assets/images/Green logo.png
+  #dart run flutter_native_splash:create

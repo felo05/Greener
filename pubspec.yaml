@@ -1,0 +1,81 @@
+name: greener
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker:
+  flutter_screenutil:
+  flutter_bloc: ^8.1.6
+  intl: ^0.19.0
+  dio: ^5.6.0
+  hive: ^2.2.3
+  dartz:
+  supabase_flutter:
+  firebase_app_installations:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  google_sign_in:
+  hive_flutter: ^1.1.0
+  flutter_gemini:
+  cached_network_image:
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.16
+  get:
+  timezone:
+  flutter_local_notifications:
+  flutter_markdown:
+  sliding_clipped_nav_bar:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner:
+  hive_generator:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.11
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_channel_ios: true
+  image_path_android: "assets/images/Green logo android.png"
+  image_path_ios: "assets/images/Green logo ios.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  android: true
+  ios: true
+  image: assets/images/Green logo.png
+  #dart run flutter_native_splash:create
